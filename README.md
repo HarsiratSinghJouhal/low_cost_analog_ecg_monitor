@@ -1,6 +1,6 @@
 # 🫀 Low-Cost 3-Op-Amp ECG Monitoring System & Real-Time Python DSP
 
-![ECG Output Waveform](media/output_waveform.png)
+![ECG Output Waveform](media/waveform01.jpg)
 
 ## 📌 Overview
 This project implements a complete end-to-end **Electrocardiogram (ECG) Data Acquisition and Digital Signal Processing (DSP) System**. Using a single **TL074CN** Quad JFET-Input Operational Amplifier configured as a classic 3-op-amp instrumentation amplifier, the hardware extracts millivolt-level cardiac bio-potentials ($\sim 1\text{ mV}$) in the presence of heavy $50\text{ Hz}$ mains interference and galvanic skin-electrode offsets. 
@@ -11,7 +11,7 @@ The amplified analog signal is AC-coupled, level-shifted to $2.5\text{V}$, digit
 
 ## ⚙️ Hardware Architecture & Schematic
 
-![Circuit Schematic](hardware/schematic_ecg.png)
+![Circuit Schematic](hardware/schematic.png)
 
 ### 1. Input Protection & Bias Return Path
 * **Current-Limiting Resistors ($10\text{ k}\Omega$):** Placed in series with both the Left Arm (`LA / Chest+`) and Right Arm (`RA / Chest-`) leads to protect the subject and limit fault currents.
